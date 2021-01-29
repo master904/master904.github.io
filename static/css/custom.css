@@ -1,0 +1,40 @@
+table, th, td {
+    border: 1px grey;
+    min-width: 50px;
+!important;
+    border-collapse: collapse;
+!important;
+}
+
+
+th {
+    background-color: #f3f3f3;
+    text-align: left;
+}
+
+td:first-child {
+    background-color: #f3f3f3;
+    text-align: left;
+    font-size: 14px;
+    width: 16em;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #6a6a6a;
+    height: 1px;
+    margin-top: -17px;
+}
+
+td:nth-child(2) {
+    text-align: left;
+    width: 16em;
+    padding-left: 20px;
+
+!important;
+}
+
+
