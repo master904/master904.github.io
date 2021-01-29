@@ -213,9 +213,7 @@
 
         var myvideo = document.getElementById('myVideo')
         myvideo.addEventListener("timeupdate", function () {
-            console.log(myvideo.currentTime)
-
-            if (myvideo.currentTime >= 35) {
+               if (myvideo.currentTime >= 35) {
                 
                 myvideo.playbackRate = 0.1;
             }
